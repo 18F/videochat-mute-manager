@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Acano Auto-mute",
+  "description": "This extension keeps your microphone muted in Acano unless you hold down the space bar",
+  "version": "0.1",
+
+  "content_scripts": [
+    {
+      "matches": [
+        "https://join.mycospace.com/*"
+      ],
+      "js" : ["jquery-1.12.1.min.js","content_script.js"]
+    }
+  ]
+}
