@@ -17,3 +17,9 @@ $(document).keyup(function (event) {
     $("#button_mute_mic")[0].click();
   }
 });
+
+window.onbeforeunload = function () {
+  if (!$("#button_mute_mic").hasClass("on")) {
+    $("#button_mute_mic")[0].click();
+  }
+};

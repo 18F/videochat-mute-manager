@@ -3,7 +3,7 @@
 
   "name": "Acano Auto-mute",
   "description": "This extension keeps your microphone muted in Acano unless you hold down the space bar",
-  "version": "0.1",
+  "version": "0.2",
 
   "content_scripts": [
     {
