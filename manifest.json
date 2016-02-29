@@ -17,6 +17,12 @@
         "https://appear.in/*"
       ],
       "js" : ["jquery-1.12.1.min.js","lib/appearin.js"]
+    },
+    {
+      "matches": [
+        "https://plus.google.com/hangouts/_/*/*"
+      ],
+      "js" : ["jquery-1.12.1.min.js","lib/hangouts.js"]
     }
   ]
 }
