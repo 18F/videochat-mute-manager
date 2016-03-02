@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "Acano Auto-mute",
-  "description": "This extension keeps your microphone muted in Acano unless you hold down the space bar",
+  "name": "Videochat Mute Manager",
+  "description": "This extension keeps your microphone muted in Acano, Appear.in, and Google Hangouts until you hold down the space bar.",
   "version": "0.3",
 
   "content_scripts": [
