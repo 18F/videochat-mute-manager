@@ -1,6 +1,19 @@
-# Acano Auto-mute
+# Videochat Mute Manager
 
-A Chrome extension that auto-mutes Acano on load and lets you hold the spacebar to temporarily unmute.
+A chrome extension to automatically mute videochats on load. After that, mute can be toggled on/off by holding the spacebar.
+
+## Contributing
+
+See [CONTRIBUTING](CONTRIBUTING.md) for additional information.
+
+### Branching structure
+
+Main branch: `release`.
+Development branch: `develop`.
+
+### Local development
+
+After cloning the repo, use [these instructions from Google] to load the extension into your browser for testing.
 
 ## Public domain
 
